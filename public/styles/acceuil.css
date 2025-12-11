@@ -1,0 +1,281 @@
+/* Style de la première section */
+#firstSection{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 37px;
+}
+
+#firstSection div:first-child{
+    padding-top: 50px;
+}
+
+#firstSection div:first-child h1{
+    color: #1B5A7D;
+    font-family: Poppins;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#firstSection div:first-child button:first-child{
+    background-color: #EDA415;
+    border-radius: 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+#firstSection div:first-child button:last-child{
+    background-color: transparent;
+    border-radius: 20px;
+    color: #1B5A7D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 24px;
+    border: 2px solid #1B5A7D;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#firstSection div:last-child h2{
+    position :absolute;
+    top: 470px;
+    right: 200px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #EDA415;
+    padding: 30px;
+    border-radius: 1000px;
+}
+
+
+/* Style de la deuxième section */
+#carrouselDeProduit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#carrouselDeProduit > div{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #A5A5A5;
+    padding: 20px;
+    width: 381.635px;
+    height: 147px;
+    gap: 30px;
+    
+}
+
+#carrouselDeProduit > div > div p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #1B5A7D;
+}
+
+/* Style de la troisème section */
+#popularProduct{
+    margin-top: 150px;
+}
+
+#popularProduct h2{
+    color: #1B5A7D;
+    font-family: Poppins;
+    font-size: 27.38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 140px;
+    margin-bottom: 35px;
+}
+
+#popularProduct > section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+    
+#popularProduct article{
+    display: grid;
+    align-items: center;
+    justify-content:center; 
+    border-radius: 20px;
+    border: 1px solid #A5A5A5;
+    padding: 20px;
+    width: 300px;
+    height: 290px;
+}
+
+#popularProduct article h3{
+    color: var(--a, #003F62);
+    font-family: Poppins;
+    font-size: 17.094px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#popularProduct article img{
+    height: 168.185px;
+    width: auto;
+}
+
+/* Section NewOrdinateur */
+
+#NewOrdinateur{
+    border-radius: 20px;
+    background: url(/img/banniere-ordinateur.jpg) lightgray 0px -244.868px / 100% 210.488% no-repeat;
+    width: 1315px;
+    height: 417px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#NewOrdinateur div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    margin-left: 650px;
+    padding-top: 40px;
+}
+
+#NewOrdinateur div button{
+    background-color: #EDA415;
+    border-radius: 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#NewOrdinateur div h3{
+    color: #2E8FC5;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: -20px;
+}
+
+#NewOrdinateur div p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Section servicesHome */
+
+#servicesHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 1328px;
+    height: 155px;
+    border-radius: 20px;
+    background: #E2F4FF;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#servicesHome article{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#servicesHome article h4{
+    color: #1B5A7D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}   
+
+/* Section Avis Client */
+#avisClient{
+    display: flex;
+    margin: 0 auto;
+    margin-inline: 150px;
+    margin-top: 100px;
+    gap:10px;
+}
+
+#avisClient article{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 20px;
+    border: 1px solid #A5A5A5;
+    padding: 20px;
+    gap: 25px;
+}
+
+#avisClient article div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#avisClient article div p{
+    color: #003F62;
+    font-family: Poppins;
+    font-size: 15.979px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#avisClient article > p{
+    border-radius: 18.695px;
+    background: #E2F4FF;
+    padding: 15px;
+}
+
+/* Section marquePartenaire */
+#marquePartenaire{
+    display: flex;
+    width: 1317px;
+    height: 136px;
+    justify-content: center;
+    align-items: center;
+    gap: 55.3px;
+    background: #E2F4FF;
+    margin: 0 auto;
+    margin-top: 100px;
+}
